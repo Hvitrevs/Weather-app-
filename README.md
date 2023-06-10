@@ -16,5 +16,5 @@ viewing on smartphone
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/dcd799e8-94b8-4e6e-b1c2-f94d54646688" alt="alt text" width="500">
 
-Used node.js and vanilla JavaScript
+Used node.js and vanilla.js
 
