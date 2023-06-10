@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body class="blurred">
+    <header class="header">
+      <div class="header-left">
+        <img class="weather-icon-large" src="icons/sun.svg" data-current-icon/>
+        <div class="header-current-temp">
+          <p class="today-text">Today</p>
+          <span data-current-temp>26</span> F&deg;
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="info-group">
+          <div class="label">High</div>
+          <div><span data-current-high>28</span> F&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">FL High</div>
+          <div><span data-current-fl-high>23</span> F&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Wind</div>
+          <div><span data-current-wind>12</span><span class="value-sub-info">mph</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Low</div>
+          <div><span data-current-low>16</span> F&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">FL Low</div>
+          <div><span data-current-fl-low>11</span> F&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Precip</div>
+          <div><span data-current-precip>0.1</span><span class="value-sub-info">in</div>
+        </div>
+        
+    </header>
+    <div class ="houry-text"><p>weather for the next week</p></div>
+    <section class="day-section" data-day-section>
+      <div class="day-card">
+        <img src="icons/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Monday</div>
+        <div>32 F&deg;</div>
+      </div>
+      <div class="day-card">
+        <img src="icons/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Tuesday</div>
+        <div>32 F&deg;</div>
+      </div>
+      <div class="day-card">
+        <img src="icons/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Wednesday</div>
+        <div>32 F&deg;</div>
+      </div>
+      <div class="day-card">
+        <img src="icons/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Thursday</div>
+        <div>32 F&deg;</div>
+      </div>
+      <div class="day-card">
+        <img src="icons/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Friday</div>
+        <div>32 F&deg;</div>
+      </div>
+      <div class="day-card">
+        <img src="icons/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Saturday</div>
+        <div>32 F&deg;</div>
+      </div>
+      <div class="day-card">
+        <img src="icons/cloud.svg" class="weather-icon" />
+        <div class="day-card-day">Sunday</div>
+        <div>32 F&deg;</div>
+      </div>
+    
+    </section>
+
+
+    <div class ="houry-text"><p>TODAY HOURLY WEATHER</p></div>
+
+    <table class= "hour-section">
+      <tbody data-hour-section>
+        <tr class="hour-row">
+          <td>
+            <div class="info-group">
+              <div class="label">Thursday</div>
+              <div>3 PM</div>
+            </div>
+          </td>
+          <td>
+            <img src="icons/cloud.svg" class="weather-icon" />
+          </td>
+          <td> <div class="info-group">
+            <div class="label">Temp</div>
+            <div>31 F&deg;</div>
+          </td>
+          <td> <div class="info-group">
+            <div class="label">FL Temp</div>
+            <div>28 F&deg;</div>
+          </td>
+          <td> <div class="info-group">
+            <div class="label">Wind</div>
+            <div>16<span class="value-sub-info">mph</span>
+            </div>
+          </td>
+          <td>
+            <div class="info-group">
+            <div class="label">Precip</div>
+            <div>0<span class="value-sub-info">in</span></div>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+      
+    </table>
+
+<template id="day-card-template">
+  <div class="day-card">
+    <img data-icon class="weather-icon" />
+    <div class="day-card-day" data-date></div>
+    <div><span data-temp></span><span>&deg;</span></div>
+  </div>
+</template>
+<template id="hour-row-template">
+  <tr class="hour-row">
+    <td>
+      <div class="info-group">
+        <div class="label" data-day></div>
+        <div data-time></div>
+      </div>
+    </td>
+    <td>
+      <img data-icon class="weather-icon" />
+    </td>
+    <td>
+      <div class="info-group">
+        <div class="label">Temp</div>
+        <div><span data-temp></span><span>&deg;</span></div>
+      </div>
+    </td>
+    <td>
+      <div class="info-group">
+        <div class="label">FL Temp</div>
+        <div><span data-fl-temp></span><span>&deg;</span></div>
+      </div>
+    </td>
+    <td>
+      <div class="info-group">
+        <div class="label">Wind</div>
+        <div>
+          <span data-wind></span><span class="value-sub-info">mph</span>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="info-group">
+        <div class="label">Precip</div>
+        <div>
+          <span data-precip></span><span class="value-sub-info">in</span>
+        </div>
+      </div>
+    </td>
+  </tr>
+  </template>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
