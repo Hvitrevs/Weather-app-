@@ -1,6 +1,8 @@
 # Weather-app-
 utilizes weather API and transforms complex data into readable webpage.
-
+It takes browser geolocation as pre-default for data collection.
+It does not require any user input other that allowing browser to use geolocation.
+It updates by itself every 5 minutes to keep user up to relevant date.
 
 Viewing on desktop
 
