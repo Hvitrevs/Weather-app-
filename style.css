@@ -5,12 +5,21 @@
 }
 
 
+/* this app color palette: */
+:root {
+--white: hsl(180, 100%, 95%);
+--border: hsla(199, 33%, 67%, 0.385);
+--card: hsla(199, 100%, 94%, 0.476);
+--top: hsl(199, 100%, 24%);
+--bottom: hsl(173, 71%, 60%);
+}
+
+
+
 body {
   margin: 0;
-  /* margin-left: 15%;
-  margin-right: 15%; */
-  background-image: linear-gradient(rgb(5, 90, 139), rgb(124, 223, 188));
-  color: hsl(180, 100%, 95%);
+  background-image: linear-gradient(var(--top), var(--bottom));
+  color: var(--white);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .blurred {
@@ -71,10 +80,10 @@ body {
   margin-right: 0%;
   opacity: 90%;
   border-radius: 0.4rem;
-  border: 1px transparent hsla(199, 33%, 67%, 0.385);
-  border-left-color:  hsla(200, 100%, 86%, 0.137);
+  border: 1px transparent var(--border);
+  border-left-color:  var(--border);
   padding: 0.5rem;
-  background-image: linear-gradient(hsla(200, 57%, 80%, 0.413), transparent);
+  background-image: linear-gradient(var(--border), transparent);
   display: grid;
   width: 50%;
   justify-content: space-around;
@@ -94,17 +103,20 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.9rem;
-  color: hsl(0, 0%, 100%)
+  color: var(--white);
 }
 
 
-
+/* this will affect measurment units such as mph and in */
 .value-sub-info {
   font-weight: lighter;
   font-size: 0.9rem;
 }
 
 
+
+
+/* weather for the week section with cards */
 .day-section {
   margin-bottom: 3%;
   display: grid;
@@ -116,11 +128,11 @@ body {
 }
 
 .day-card {
-  background-image: linear-gradient(hsla(199, 100%, 94%, 0.476), transparent);
+  background-image: linear-gradient(var(--card), transparent);
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1.5px solid hsla(198, 59%, 72%, 0.529);
+  border: 1.5px solid var(--border);
   border-radius: 0.4rem;
   padding: 0.25rem;
 }
@@ -132,6 +144,11 @@ body {
   margin-top: 0.6rem;
 }
 
+
+
+
+
+/* today hourly weather section bellow */
 .houry-text {
   text-align: center;
   opacity: 70%;
@@ -143,8 +160,6 @@ body {
   opacity: 60%;
   
 }
-
-
 
 .hour-section {
   display: flexbox;
@@ -158,7 +173,6 @@ body {
   border-radius: 1rem;
   opacity: 60%;
 } 
-
 
 .hour-row >td {
   padding: 0.23rem 0.5rem;
