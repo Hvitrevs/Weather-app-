@@ -2,6 +2,10 @@ import "./style.css"
 import { getWeather } from "./weather"
 import  {ICON_MAP}  from "./iconMap"
 
+
+
+
+
 navigator.geolocation.getCurrentPosition (positionSuccess, positionError) 
 
 function positionSuccess({ coords }) {
@@ -20,6 +24,10 @@ function positionError() {
     alert ("Location service is offline. Weather API is unreacheable. Please  allow location services in your browser and reload webpage.")
 }
 
+
+
+
+
 function renderWeather({ current, daily, hourly}){
     renderCurrentWeather(current)
     renderDailyWeather(daily)
@@ -27,14 +35,19 @@ function renderWeather({ current, daily, hourly}){
     document.body.classList.remove("blurred")
 }
 
+
+
+
 function setValue(selector, value, {parent = document} = {}){
     parent.querySelector(`[data-${selector}]`).textContent = value
 }
 
-
 function getIconUrl(iconCode) {
     return `icons/${ICON_MAP.get(iconCode)}.svg`
 }
+
+
+
 
 const currentIcon = document.querySelector("[data-current-icon]")
 function renderCurrentWeather(current) {
@@ -47,6 +60,10 @@ function renderCurrentWeather(current) {
     setValue("current-wind", current.windSpeed)
     setValue("current-precip", current.precip)
 }
+
+
+
+
 const DAY_FORMATTER = new Intl.DateTimeFormat (undefined, { weekday: "long" })
 const dailySection = document.querySelector("[data-day-section]")
 const dayCardTemplate = document.getElementById("day-card-template")
@@ -62,6 +79,8 @@ function renderDailyWeather(daily) {
     })
 }
 
+
+
 const HOUR_FORMATTER = new Intl.DateTimeFormat(undefined, { hour: "numeric" })
 const hourlySection = document.querySelector("[data-hour-section]")
 const hourRowTemplate = document.getElementById("hour-row-template")
@@ -72,8 +91,6 @@ function renderHourlyWeather(hourly) {
     const iterations = Math.min(limit, hourly.length);
     for (let i = 0; i < iterations; i++) {
     const hour = hourly[i];
-
-    
     const element = hourRowTemplate.content.cloneNode(true)
     setValue("temp", hour.temp, { parent: element })
     setValue("fl-temp", hour.feelsLike, { parent: element })
