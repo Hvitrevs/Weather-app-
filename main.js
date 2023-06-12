@@ -86,7 +86,6 @@ const hourlySection = document.querySelector("[data-hour-section]")
 const hourRowTemplate = document.getElementById("hour-row-template")
 function renderHourlyWeather(hourly) {
     hourlySection.innerHTML = ""
-    // Limit the iteration to 5 elements
     const limit = 10;
     const iterations = Math.min(limit, hourly.length);
     for (let i = 0; i < iterations; i++) {
