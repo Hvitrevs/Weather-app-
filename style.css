@@ -140,7 +140,7 @@ body {
 .day-card-day {
   object-fit: contain;
   font-size: 0.8rem;
-  color: hsl(180, 100%, 98%);
+  color: var(--white);
   margin-top: 0.6rem;
 }
 
@@ -155,7 +155,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2rem;
-  color: hsl(0, 0%, 100%);
+  color: var(--white);
   justify-content:center;
   opacity: 60%;
   
