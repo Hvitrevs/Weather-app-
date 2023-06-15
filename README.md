@@ -1,9 +1,4 @@
 # Weather-app-
-## About 
-
-Used node.js and vanilla.js. 
-
-______________________________________________________________________________________________________________________________________
 
 ## Description
 Utilizes weather API and transforms complex data into readable webpage.
@@ -11,6 +6,11 @@ It takes browser geolocation as pre-default for data collection.
 It does not require any user input other than allowing browser to use geolocation.
 It updates by itself every 5 minutes to keep user up to relevant date.
 _____________________________________________________________________________________________________________________________________
+## About 
+
+Used node.js and vanilla.js. 
+
+______________________________________________________________________________________________________________________________________
 
 ## Screenshots
 <details>
