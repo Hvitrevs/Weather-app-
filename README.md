@@ -16,12 +16,12 @@ Viewing on desktop
 
 Viewing on tablet
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/915c3b19-2c68-4cff-8c58-0a6ada91777f" alt="alt text" width="400">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/915c3b19-2c68-4cff-8c58-0a6ada91777f" alt="alt text" width="300">
 
 
 Viewing on smartphone
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/5311ed07-6f37-41f2-8485-e3f6564f8f6a" alt="alt text" width="400">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/5311ed07-6f37-41f2-8485-e3f6564f8f6a" alt="alt text" width="300">
 
 
 </details>
@@ -43,12 +43,10 @@ After instalation run:
 npm start
 
 ```
-
 ______________________________________________________________________________________________________________________________________
 
 ## Questions
 
 Feel free to reach me out in case of any questions or suggestions
 
-## 
 
