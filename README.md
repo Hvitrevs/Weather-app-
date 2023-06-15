@@ -1,4 +1,9 @@
 # Weather-app-
+## About 
+
+Used node.js and vanilla.js. 
+
+______________________________________________________________________________________________________________________________________
 
 ## Description
 Utilizes weather API and transforms complex data into readable webpage.
@@ -26,8 +31,9 @@ Viewing on smartphone
 _________________________________________________________________________________________________________________________
 
 ## Instalation
+Easy to pull and instal:
 
-Used node.js and vanilla.js. To instal, pull this repo and open in terminal. Run:
+To instal, pull this repo and open in terminal. Run:
 
 ```
 git clone 
