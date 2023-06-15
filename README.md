@@ -13,11 +13,9 @@ Viewing on desktop
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/207f375a-860b-4be8-8f86-46b3694cd5f2" alt="alt text" width="900">
 
-
 Viewing on tablet
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/915c3b19-2c68-4cff-8c58-0a6ada91777f" alt="alt text" width="300">
-
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/915c3b19-2c68-4cff-8c58-0a6ada91777f" alt="alt text" width="400">
 
 Viewing on smartphone
 
