@@ -32,7 +32,7 @@ ________________________________________________________________________________
 Used node.js and vanilla.js. To instal, pull this repo and open in terminal. Run:
 
 ```
-git clone url
+git clone 
 
 npm i
 
@@ -44,12 +44,11 @@ npm start
 
 ```
 
-
 ______________________________________________________________________________________________________________________________________
 
 ## Questions
 
 Feel free to reach me out in case of any questions or suggestions
 
-
+## 
 
