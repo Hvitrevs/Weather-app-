@@ -47,6 +47,8 @@ After instalation run:
 npm start
 
 ```
+
+It will open in new browser window that could be left on your desktop or in next browser tab. The data will update automatically every 5 minutes. 
 ______________________________________________________________________________________________________________________________________
 
 ## Questions
