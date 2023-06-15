@@ -21,7 +21,7 @@ Viewing on tablet
 
 Viewing on smartphone
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/5311ed07-6f37-41f2-8485-e3f6564f8f6a" alt="alt text" width="300">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/5311ed07-6f37-41f2-8485-e3f6564f8f6a" alt="alt text" width="200">
 
 
 </details>
