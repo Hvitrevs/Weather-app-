@@ -41,7 +41,7 @@ git clone
 npm i
 
 ```
-After instalation run:
+### After instalation run:
 
 ```
 npm start
