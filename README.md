@@ -5,12 +5,12 @@ Utilizes weather API and transforms complex data into readable webpage.
 It takes browser geolocation as pre-default for data collection.
 It does not require any user input other than allowing browser to use geolocation.
 It updates by itself every 5 minutes to keep user up to relevant date.
-_____________________________________________________________________________________________________________________________________
+
 ## About 
 
 Used node.js and vanilla.js. 
 
-______________________________________________________________________________________________________________________________________
+
 
 ## Screenshots
 <details>
@@ -28,7 +28,7 @@ Viewing on smartphone
 
 
 </details>
-_________________________________________________________________________________________________________________________
+
 
 ## Instalation
 ### Easy to pull and instal:
@@ -49,7 +49,7 @@ npm start
 ```
 
 It will open in new browser window that could be left on your desktop or in next browser tab. The data will update automatically every 5 minutes. 
-______________________________________________________________________________________________________________________________________
+
 
 ## Questions
 
