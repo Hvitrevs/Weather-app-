@@ -30,10 +30,10 @@ Viewing on smartphone
 </details>
 
 
-## Instalation
-### Easy to pull and instal:
+## Installation
+### Easy to pull and install:
 
-To instal, pull this repo and open in terminal. Run:
+To install, pull this repo and open in terminal. Run:
 
 ```
 git clone 
@@ -41,7 +41,7 @@ git clone
 npm i
 
 ```
-### After instalation run:
+### After installation run:
 
 ```
 npm start
