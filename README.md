@@ -31,7 +31,7 @@ Viewing on smartphone
 _________________________________________________________________________________________________________________________
 
 ## Instalation
-Easy to pull and instal:
+### Easy to pull and instal:
 
 To instal, pull this repo and open in terminal. Run:
 
