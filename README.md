@@ -1,4 +1,7 @@
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/207f375a-860b-4be8-8f86-46b3694cd5f2" alt="alt text" height="400">
+
 # Weather-app-
+
 
 ## Description
 Utilizes weather API and transforms complex data into readable webpage.
