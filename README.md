@@ -58,4 +58,9 @@ It will open in new browser window that could be left on your desktop or in next
 
 Feel free to reach me out in case of any questions or suggestions
 
+## Sources
 
+
+[Icons font awesome](https://github.com/Hvitrevs/weather-icons-font-awesome)
+
+## Thank you.
