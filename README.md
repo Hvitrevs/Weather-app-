@@ -33,25 +33,6 @@ Viewing on smartphone
 </details>
 
 
-## Installation
-### Easy to pull and install:
-
-To install, pull this repo and open in terminal. Run:
-
-```
-git clone 
-
-npm i
-
-```
-### After installation run:
-
-```
-npm start
-
-```
-
-It will open in new browser window that could be left on your desktop or in next browser tab. The data will update automatically every 5 minutes. 
 
 
 ## Questions
