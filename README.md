@@ -1,6 +1,8 @@
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/207f375a-860b-4be8-8f86-46b3694cd5f2" alt="alt text" height="400">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/7de1e508-04c4-46ae-81fe-e212c78cb454" alt="alt text" height="400">
+
 
 # Weather-app-
+
 
 
 ## Description
@@ -17,17 +19,18 @@ Used node.js and vanilla.js.
 
 ## Screenshots
 <details>
+
 Viewing on desktop
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/207f375a-860b-4be8-8f86-46b3694cd5f2" alt="alt text" width="900">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/7de1e508-04c4-46ae-81fe-e212c78cb454" alt="alt text" width="900">
 
 Viewing on tablet
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/915c3b19-2c68-4cff-8c58-0a6ada91777f" alt="alt text" width="400">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/76c6fa0f-61a2-481b-8974-44f52b871dbe" alt="alt text" width="400">
 
 Viewing on smartphone
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/5311ed07-6f37-41f2-8485-e3f6564f8f6a" alt="alt text" width="200">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/22d95d1e-671b-4c3d-828b-19eda47ac2e1" alt="alt text" width="200">
 
 
 </details>
