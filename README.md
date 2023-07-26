@@ -13,7 +13,9 @@ It updates by itself every 5 minutes to keep user up to relevant date.
 
 ## About 
 
-Used node.js and vanilla.js. 
+### Used 
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+ vanilla.js. 
 
 
 
