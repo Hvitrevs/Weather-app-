@@ -38,8 +38,9 @@ Viewing on smartphone
 </details>
 
 
+## See live
+[app](https://magical-concha-6ccb16.netlify.app)
 
-### [See Live](https://magical-concha-6ccb16.netlify.app)
 ## Questions
 
 Feel free to reach me out in case of any questions or suggestions
