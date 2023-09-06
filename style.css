@@ -1,38 +1,28 @@
+/* Remove the scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Reset styles for all elements */
 *,
 *::after,
 *::before {
-
-  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scrollbar-width: none;
-
-  body::-webkit-scrollbar {
-    display: none;
-  }
-
 }
 
-
-
-
-/* this app color palette: */
+/* Define color variables for light theme */
 :root {
-
-  
---white: hsl(180, 47%, 82%);
---border: hsla(199, 63%, 83%, 0.072);
---card: hsla(206, 43%, 66%, 0.211);
---top: hsl(215, 61%, 22%);
---bottom: hsl(174, 33%, 48%);
-
-/* night  */
-
+  --white: hsl(180, 47%, 82%);
+  --border: hsla(199, 63%, 83%, 0.072);
+  --card: hsla(206, 43%, 66%, 0.211);
+  --top: hsl(215, 61%, 22%);
+  --bottom: hsl(174, 33%, 48%);
 }
 
-
-.dark-theme{
+/* Define color variables for dark theme */
+.dark-theme {
   --white: hsla(215, 54%, 76%, 0.774);
   --border: hsla(238, 26%, 62%, 0.112);
   --card: hsla(236, 51%, 69%, 0.237);
@@ -40,7 +30,7 @@
   --bottom: hsl(222, 27%, 35%);
 }
 
-
+/* Body styles for both light and dark themes */
 body {
   padding: 2rem;
   background-image: linear-gradient(var(--top), var(--bottom));
@@ -48,19 +38,17 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 14px;
 
-    @media (max-width: 780px) {
-      
-      font-size: 12px;
-    }
+  /* Media queries for font size adjustments */
+  @media (max-width: 780px) {
+    font-size: 12px;
+  }
 
-    @media (max-width: 480px) {
-    
-      font-size: 10px;
-    }
-  
-  
-
+  @media (max-width: 480px) {
+    font-size: 10px;
+  }
 }
+  
+
 .blurred {
   filter: blur(5px);
   overflow: hidden;
@@ -336,6 +324,6 @@ body {
 .hour-row:hover{
   opacity: 100%;
   @media (max-width: 480px) {
-    background-color: rgba(94, 140, 162, 0.322);
+    background-color: rgba(158, 162, 163, 0.145);
   }
 }

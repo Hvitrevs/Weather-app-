@@ -188,6 +188,13 @@
       
       applyDarkTheme();
       setInterval(applyDarkTheme, 60000); 
+
+
+      function setDefaultLanguage() {
+        const userLanguage = navigator.language || navigator.userLanguage;
+        document.documentElement.lang = userLanguage;
+      }
+      setDefaultLanguage();
       
       </script>
   </body>
