@@ -22,8 +22,8 @@
 
   
 --white: hsl(180, 47%, 82%);
---border: hsla(199, 63%, 83%, 0.222);
---card: hsla(206, 43%, 66%, 0.278);
+--border: hsla(199, 63%, 83%, 0.072);
+--card: hsla(206, 43%, 66%, 0.211);
 --top: hsl(215, 61%, 22%);
 --bottom: hsl(174, 33%, 48%);
 
@@ -46,6 +46,17 @@ body {
   background-image: linear-gradient(var(--top), var(--bottom));
   color: var(--white);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+
+    @media (max-width: 780px) {
+      
+      font-size: 12px;
+    }
+
+    @media (max-width: 480px) {
+    
+      font-size: 10px;
+    }
   
   
 
@@ -116,6 +127,7 @@ body {
 }
 
 
+
 .weather-icon {
   opacity: 50%;
   width: 65px;
@@ -136,8 +148,8 @@ body {
 
 .weather-icon-large {
   opacity: 50%;
-  width: 11rem;
-  height: 11rem;
+  width: 12rem;
+  height: 12rem;
   flex-wrap: wrap;
 
 
@@ -145,8 +157,13 @@ body {
 
 
 .header-current-temp {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 480px) {
+    font-size: medium;
+
+  }
 }
   
 
@@ -156,18 +173,23 @@ body {
   border: 1px transparent var(--border);
   border-left-color:  var(--border);
   padding: 0.7rem;
-  background-image: linear-gradient(var(--border), transparent);
+  background-image: linear-gradient(var(--card), transparent);
   display: grid;
   width: 60%;
   justify-content: space-around;
   gap: 0.6rem;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
+
+  @media (max-width: 480px) {
+    font-size: small;
+    gap: 0.01rem;
+    }
 }
 
 .info-group {
   margin-top: 1%;
-  align-items: center;
+  align-items: start;
   @media (max-width: 480px) {
     font-size: small;
     }
@@ -175,13 +197,21 @@ body {
 
 
 .label {
-  padding: 7px;
+  padding: 15px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1rem;
   color: var(--white);
-  @media (max-width: 480px) {
+
+  @media (max-width: 1024x) {
+    font-size: medium;
+    }
+
+  @media (max-width: 780px) {
     font-size: small;
+    }
+  @media (max-width: 480px) {
+    font-size: x-small;
     }
 }
 
@@ -189,10 +219,13 @@ body {
 /* this will affect measurment units such as mph and in */
 .value-sub-info {
   font-weight: lighter;
-  font-size: 0.9rem;
-  @media (max-width: 480px) {
+  font-size: 1rem;
+  @media (max-width: 780px) {
     font-size: small;
     }
+    @media (max-width: 480px) {
+      font-size: x-small;
+      }
 }
 
 
@@ -222,9 +255,11 @@ body {
   border-radius: 0.6rem;
   padding: 0.25rem;
   width: 120%;
+  gap: 0.5rem;
 
   @media (max-width: 480px) {
     width: 100%;
+    
     
     }
 }
@@ -233,7 +268,7 @@ body {
   object-fit: contain;
   font-size: 0.8rem;
   color: var(--white);
-  margin-top: 0.9rem;
+  margin-top: 0.1rem;
 
 }
 
@@ -264,8 +299,10 @@ body {
   border-spacing: 0px; 
   border-radius: 20px; 
 
+
   @media (max-width: 480px) {
-    max-width: 350px;
+    background-image: linear-gradient(var(--border), transparent);
+    max-width: 390px;
     display: flex;
     
     }
@@ -278,7 +315,7 @@ body {
 .hour-row {
   width: 100%;
   border-radius: 1rem;
-  opacity: 80%;
+  opacity: 70%;
   @media (max-width: 480px) {
     display: flex;
     
@@ -298,4 +335,7 @@ body {
 
 .hour-row:hover{
   opacity: 100%;
+  @media (max-width: 480px) {
+    background-color: rgba(94, 140, 162, 0.322);
+  }
 }
