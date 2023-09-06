@@ -23,21 +23,22 @@
 
 /* this app color palette: */
 :root {
-/* --white: hsl(180, 100%, 95%);
+--white: hsl(180, 100%, 95%);
 --border: hsla(199, 33%, 67%, 0.385);
 --card: hsla(199, 100%, 94%, 0.476);
 --top: hsl(199, 100%, 24%);
---bottom: hsl(173, 71%, 60%); */
+--bottom: hsl(173, 71%, 60%);
 
 /* night  */
---white: hsl(214, 54%, 76%);
---border: hsla(238, 26%, 62%, 0.112);
---card: hsla(236, 51%, 69%, 0.352);
---top: hsl(237, 38%, 18%);
---bottom: hsl(228, 30%, 43%);
 
 }
-
+.dark-theme{
+  --white: hsla(215, 54%, 76%, 0.774);
+  --border: hsla(238, 26%, 62%, 0.112);
+  --card: hsla(236, 51%, 69%, 0.237);
+  --top: hsl(237, 53%, 8%);
+  --bottom: hsl(222, 27%, 35%);
+}
 
 
 body {
@@ -69,6 +70,19 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 3rem;
+}
+
+.header-stars{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  opacity:10%;
+  @media (max-width: 780px) {
+    
+    height: 100%;
+    }
+  
+  
 }
 
 

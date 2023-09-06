@@ -8,6 +8,7 @@
   </head>
   <body class="blurred">
     <header class="header">
+      <img class="header-stars" src="./public/icons-3d/white-stars-png-10-1108265010.png" />
       <div class="header-left">
         <img class="weather-icon-large" src="icons/sun1.svg" data-current-icon/>
         
@@ -168,5 +169,26 @@
   </tr>
   </template>
     <script type="module" src="/main.js"></script>
+
+
+<!-- set night time after 20pm -->
+
+
+    <script>
+      function applyDarkTheme() {
+        const now = new Date();
+        const hours = now.getHours();
+      
+        if (hours >= 20 || hours < 5) {
+          document.documentElement.classList.add('dark-theme');
+        } else {
+          document.documentElement.classList.remove('dark-theme');
+        }
+      }
+      
+      applyDarkTheme();
+      setInterval(applyDarkTheme, 60000); 
+      
+      </script>
   </body>
 </html>
