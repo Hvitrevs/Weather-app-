@@ -112,6 +112,10 @@ body {
   padding: 1rem;
   flex-wrap: wrap;
 
+  @media (max-width: 780px) {
+    padding: 2rem;
+  }
+
 }
 
 
@@ -135,10 +139,13 @@ body {
 
 
 .weather-icon-large {
+  
+  margin-top: -2rem;
   opacity: 50%;
-  width: 12rem;
-  height: 12rem;
+  width: 14rem;
+  height: 14rem;
   flex-wrap: wrap;
+  margin-bottom: -4rem;
 
 
 }
