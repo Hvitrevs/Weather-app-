@@ -79,12 +79,12 @@ Viewing on tablet
 
 Viewing on smartphone
 
-Day:
+
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/43032d87-1422-4750-b514-3aa03ee6462f" alt="alt text" width="200">
 
 
-Night:
+
 
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/60493732-023d-420a-8a59-982ea6630f60" alt="alt text" width="200">
