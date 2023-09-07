@@ -152,6 +152,7 @@ body {
 
 
 .header-current-temp {
+  margin-top: 2rem;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 
@@ -183,7 +184,7 @@ body {
 }
 
 .info-group {
-  margin-top: 1%;
+  margin-top: 2%;
   align-items: start;
   @media (max-width: 480px) {
     font-size: small;
