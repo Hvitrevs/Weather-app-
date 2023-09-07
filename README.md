@@ -20,6 +20,8 @@ It updates by itself every 5 minutes to keep user up to relevant data.
 
 
 ## Screenshots (version 1.0)
+
+
 <details>
 
 Viewing on desktop
