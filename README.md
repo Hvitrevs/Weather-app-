@@ -1,4 +1,4 @@
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/7de1e508-04c4-46ae-81fe-e212c78cb454" alt="alt text" width="400">
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/a1500d2b-0a46-46d6-9f4c-e4ce5377ad86" alt="alt text" width="900">
 
 
 # Weather-app-
