@@ -47,9 +47,6 @@ Viewing on smartphone
 
 Added Celcius, updated page scale, removed scrollbar, added night version, updated ui and icons.
 
-![Tablet](https://github.com/Hvitrevs/Weather-app-/assets/134542496/43be513e-49ba-4102-8076-135f98d48cd5)
-![Tablet night](https://github.com/Hvitrevs/Weather-app-/assets/134542496/4772fa63-8583-4203-b45e-1b76e55ca135)
-
 
 <details>
 
