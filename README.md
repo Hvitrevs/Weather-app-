@@ -19,12 +19,41 @@ It updates by itself every 5 minutes to keep user up to relevant data.
 
 
 
-## Screenshots
+## Screenshots (version 1.0)
 <details>
 
 Viewing on desktop
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/7de1e508-04c4-46ae-81fe-e212c78cb454" alt="alt text" width="900">
+
+Viewing on tablet
+
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/76c6fa0f-61a2-481b-8974-44f52b871dbe" alt="alt text" width="400">
+
+Viewing on smartphone
+
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/22d95d1e-671b-4c3d-828b-19eda47ac2e1" alt="alt text" width="200">
+
+
+</details>
+
+![desktop](https://github.com/Hvitrevs/Weather-app-/assets/134542496/a1500d2b-0a46-46d6-9f4c-e4ce5377ad86)
+
+
+## Major update from 9/6/23
+
+Added Celcius, updated page scale, removed scrollbar, added night version, updated ui and icons.
+
+<details>
+
+Viewing on desktop
+
+Day:
+
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/a1500d2b-0a46-46d6-9f4c-e4ce5377ad86" alt="alt text" width="900">
+
+Night
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/a1500d2b-0a46-46d6-9f4c-e4ce5377ad86" alt="alt text" width="900">
 
 Viewing on tablet
 
