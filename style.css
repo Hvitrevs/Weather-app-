@@ -89,6 +89,24 @@ body {
   
   
 }
+
+.header-sun{
+  display: flex;
+  position: absolute;
+  width: 150%;
+  opacity:50%;
+  @media (max-width: 780px) {
+    
+    height: 100%;
+    }
+  
+  
+}
+
+.dark-theme .header-sun{
+  display: none;
+}
+
 .dark-theme .header-stars{
   display: flex;
   position: absolute;
