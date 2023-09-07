@@ -93,7 +93,7 @@ body {
 .header-sun{
   display: flex;
   position: absolute;
-  width: 150%;
+  width: 100%;
   opacity:50%;
   @media (max-width: 780px) {
     
