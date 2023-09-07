@@ -78,11 +78,21 @@ Night:
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/4772fa63-8583-4203-b45e-1b76e55ca135" alt="alt text" width="400">
 
 
+![Phone](https://github.com/Hvitrevs/Weather-app-/assets/134542496/43032d87-1422-4750-b514-3aa03ee6462f)
+![Phone night](https://github.com/Hvitrevs/Weather-app-/assets/134542496/60493732-023d-420a-8a59-982ea6630f60)
 
 
 Viewing on smartphone
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/22d95d1e-671b-4c3d-828b-19eda47ac2e1" alt="alt text" width="200">
+Day:
+
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/43032d87-1422-4750-b514-3aa03ee6462f" alt="alt text" width="200">
+
+
+Night:
+
+
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/60493732-023d-420a-8a59-982ea6630f60" alt="alt text" width="200">
 
 
 </details>
