@@ -43,9 +43,16 @@ Viewing on smartphone
 
 ## Major update from 9/6/23
 
+
+
 Added Celcius, updated page scale, removed scrollbar, added night version, updated ui and icons.
 
+![Tablet](https://github.com/Hvitrevs/Weather-app-/assets/134542496/43be513e-49ba-4102-8076-135f98d48cd5)
+![Tablet night](https://github.com/Hvitrevs/Weather-app-/assets/134542496/4772fa63-8583-4203-b45e-1b76e55ca135)
+
+
 <details>
+
 
 Viewing on desktop
 
@@ -53,12 +60,26 @@ Day:
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/a1500d2b-0a46-46d6-9f4c-e4ce5377ad86" alt="alt text" width="900">
 
-Night
+Night:
+
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/ac6ee9de-59c8-4704-93ba-d172566c6180" alt="alt text" width="900">
+
+
 
 Viewing on tablet
 
-<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/76c6fa0f-61a2-481b-8974-44f52b871dbe" alt="alt text" width="400">
+Day:
+
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/43be513e-49ba-4102-8076-135f98d48cd5" alt="alt text" width="400">
+
+
+Night:
+
+
+<img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/4772fa63-8583-4203-b45e-1b76e55ca135" alt="alt text" width="400">
+
+
+
 
 Viewing on smartphone
 
