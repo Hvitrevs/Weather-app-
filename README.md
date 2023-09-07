@@ -55,11 +55,11 @@ Added Celcius, updated page scale, removed scrollbar, added night version, updat
 
 Viewing on desktop
 
-Day:
+
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/a1500d2b-0a46-46d6-9f4c-e4ce5377ad86" alt="alt text" width="900">
 
-Night:
+
 
 <img src="https://github.com/Hvitrevs/Weather-app-/assets/134542496/ac6ee9de-59c8-4704-93ba-d172566c6180" alt="alt text" width="900">
 
