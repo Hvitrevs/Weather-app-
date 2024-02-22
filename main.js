@@ -1,6 +1,7 @@
 import "./style.css"
 import { getWeather } from "./weather"
 import { ICON_MAP } from "./iconMap"
+import { ICON_MAP_NIGHT } from "./ICON_MAP_NIGHT"
 
 navigator.geolocation.getCurrentPosition(positionSuccess, positionError)
 
@@ -32,9 +33,19 @@ function setValue(selector, value, { parent = document } = {}) {
   parent.querySelector(`[data-${selector}]`).textContent = value
 }
 
-function getIconUrl(iconCode) {
-  return `icons/${ICON_MAP.get(iconCode)}.svg`
+
+
+function getIconUrl(iconCode, day){
+  console.log(day);
+  if(day === 0){
+      return `./icons/${ICON_MAP_NIGHT.get(iconCode)}.svg`
+  }else{
+      return `./icons/${ICON_MAP.get(iconCode)}.svg`
+  }
 }
+
+
+
 
 // Function to convert Fahrenheit to Celsius
 function fahrenheitToCelsius(fahrenheit) {
