@@ -1,7 +1,7 @@
 import "./style.css"
 import { getWeather } from "./weather"
 import { ICON_MAP } from "./iconMap"
-import { ICON_MAP_NIGHT } from "./ICON_MAP_NIGHT"
+import { ICON_MAP_NIGHT } from "./iconMapNight"
 
 navigator.geolocation.getCurrentPosition(positionSuccess, positionError)
 
@@ -37,7 +37,9 @@ function setValue(selector, value, { parent = document } = {}) {
 
 function getIconUrl(iconCode, day){
   console.log(day);
-  if(day === 0){
+  const now = new Date();
+  const hours = now.getHours();
+  if(hours >= 20 || hours < 5) {
       return `./icons/${ICON_MAP_NIGHT.get(iconCode)}.svg`
   }else{
       return `./icons/${ICON_MAP.get(iconCode)}.svg`
@@ -45,6 +47,28 @@ function getIconUrl(iconCode, day){
 }
 
 
+function applyDarkTheme() {
+  const now = new Date();
+  const hours = now.getHours();
+
+  if (hours >= 20 || hours < 5) {
+    
+    document.documentElement.classList.add('dark-theme');
+    
+  } else {
+    document.documentElement.classList.remove('dark-theme');
+  }
+}
+
+applyDarkTheme();
+setInterval(applyDarkTheme, 60000); 
+
+
+function setDefaultLanguage() {
+  const userLanguage = navigator.language || navigator.userLanguage;
+  document.documentElement.lang = userLanguage;
+}
+setDefaultLanguage();
 
 
 // Function to convert Fahrenheit to Celsius
@@ -56,7 +80,7 @@ const currentIcon = document.querySelector("[data-current-icon]")
 
 function renderCurrentWeather(current) {
   dailySection.innerHTML = "";
-  currentIcon.src = getIconUrl(current.iconCode);
+  currentIcon.src = getIconUrl(current.iconCode, current.day);
   const currentTempFahrenheit = current.currentTemp;
   const currentTempCelsius = fahrenheitToCelsius(currentTempFahrenheit).toFixed();
 
